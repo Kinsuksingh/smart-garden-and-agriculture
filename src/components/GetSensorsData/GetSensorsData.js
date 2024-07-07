@@ -1,5 +1,5 @@
 "use client"
-import FirebaseConfig from "../FirebaseConfig/FirebaseConfig"
+import FirebaseConfig from "../Firebase/FirebaseConfig"
 import {ref, get, child} from "firebase/database"
 import { useState } from "react" 
 

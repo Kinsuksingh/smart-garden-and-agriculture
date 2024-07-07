@@ -3,10 +3,6 @@ import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
 
-
-
-
-
 const FirebaseConfig = ()=> {
     const firebaseConfig = {
         apiKey: process.env.REACT_APP_apiKey,
