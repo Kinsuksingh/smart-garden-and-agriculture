@@ -7,7 +7,7 @@
 Navigate to the project directory and run:
 
 ```bash
-  git clone <repoLink>
+  git clone https://github.com/Kinsuksingh/smart-garden-and-agriculture.git
   cd smart-garden-and-agriculture
   npm install firebase
 ```
