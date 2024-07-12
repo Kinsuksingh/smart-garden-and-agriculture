@@ -12,7 +12,7 @@ const App = () => {
       <div className="main-container">
           <Routes>
               <Route path="/smart-garden-and-agriculture" element={<Home/>} />
-              <Route path="/data" element={<Page/>} />
+              <Route path="/smart-garden-and-agriculture/data" element={<Page/>} />
           </Routes>
       </div>
     </BrowserRouter>

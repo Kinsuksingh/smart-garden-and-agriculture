@@ -2,10 +2,10 @@ import './index.css'
 const Cards = (props) => {
     const {img, title, value} = props
     return(
-        <div class="card card-section">
+        <div className="card card-section">
             <img className='card-img' src={img} alt={title} />
-            <div class="card-body">
-                <h4 class="card-title title">{title}</h4>
+            <div className="card-body">
+                <h6 className="card-title title">{title}</h6>
                 <p className='value'>{value}</p>
             </div>
         </div>

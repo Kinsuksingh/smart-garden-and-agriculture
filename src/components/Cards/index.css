@@ -4,7 +4,7 @@
     align-items: center;
     margin: 15px;
     width: 200px;
-    height: 200px;
+    height: 180px;
 }
 
 .card-img{
@@ -20,4 +20,40 @@
     text-align: center;
     font-weight: bold;
     margin-bottom: 5px;
+    font-size: 15px;
+}
+
+
+
+@media (max-width:500px) {
+    .card-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 15px;
+        width: 157px;
+        height: 160px;
+        padding: 15px;
+    }
+    .card-img{
+        width: 30%;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:400px) {
+    .card-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 15px;
+        padding: 15px;
+        width: 100%;
+    }
+    .card-img{
+        width: 30%;
+        margin-top: 5px;
+    }
 }
