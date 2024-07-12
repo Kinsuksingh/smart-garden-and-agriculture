@@ -17,6 +17,18 @@
     max-width: 750px;
 }
 
+@media (max-width:700px) {
+    .garden-img{
+        width: 100%;
+        border-radius: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        max-width: 450px;
+        height: 180px;
+    }
+}
+
+
 @media (max-width:400px) {
     .garden-img{
         width: 100%;
