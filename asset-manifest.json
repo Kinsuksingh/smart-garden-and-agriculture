@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/smart-garden-and-agriculture/static/css/main.4ae39f69.css",
+    "main.css": "/smart-garden-and-agriculture/static/css/main.f80c288c.css",
     "main.js": "/smart-garden-and-agriculture/static/js/main.68d848bf.js",
     "static/js/453.a355f52e.chunk.js": "/smart-garden-and-agriculture/static/js/453.a355f52e.chunk.js",
     "index.html": "/smart-garden-and-agriculture/index.html",
-    "main.4ae39f69.css.map": "/smart-garden-and-agriculture/static/css/main.4ae39f69.css.map",
+    "main.f80c288c.css.map": "/smart-garden-and-agriculture/static/css/main.f80c288c.css.map",
     "main.68d848bf.js.map": "/smart-garden-and-agriculture/static/js/main.68d848bf.js.map",
     "453.a355f52e.chunk.js.map": "/smart-garden-and-agriculture/static/js/453.a355f52e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ae39f69.css",
+    "static/css/main.f80c288c.css",
     "static/js/main.68d848bf.js"
   ]
 }
