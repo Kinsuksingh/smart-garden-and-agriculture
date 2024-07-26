@@ -1,6 +1,21 @@
 .page-section{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+.moisture-sensor-card{
+    background-color: rgb(227, 221, 212);
+    padding: 45px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.heading{
+    color: rgb(77, 74, 71);
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 25px;
 }
