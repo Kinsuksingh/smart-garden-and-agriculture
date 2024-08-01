@@ -7,6 +7,7 @@ import './App.css'
 import Home from './components/Home'
 import NavBar from "./components/NavBar";
 import Page from "./components/Page";
+import History from "./components/History";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const db = FirebaseConfig()
@@ -47,7 +48,7 @@ const App = () => {
     waterPumpState
   }
 
-  const data = [
+  const dataSoil = [
     {
       value: soilMois?soilMois:0,
       soilMoisStatus: "Moisture",
@@ -57,13 +58,16 @@ const App = () => {
       soilMoisStatus: "Dry",
     },
   ]
+
+  const dataMoisture = []
   return(
     <BrowserRouter>
       <NavBar/>
       <div className="main-container">
           <Routes>
               <Route path="/smart-garden-and-agriculture" element={<Home sensorData={sensorData}/>} />
-              <Route path="/smart-garden-and-agriculture/data" element={<Page sensorDataForVisulise={data}/>} />
+              <Route path="/smart-garden-and-agriculture/data" element={<Page sensorDataForVisulise={dataSoil}/>} />
+              <Route path="/smart-garden-and-agriculture/history" element={<History sensorDataForVisulise={dataMoisture}/>} />
           </Routes>
       </div>
     </BrowserRouter>

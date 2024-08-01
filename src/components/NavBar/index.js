@@ -15,6 +15,9 @@ const NavBar = () => {
                     <li className="nav-item active">
                         <Link className="nav-link" to="/smart-garden-and-agriculture/data">Data Visualise</Link>
                     </li>
+                    <li className="nav-item active">
+                        <Link className="nav-link" to="/smart-garden-and-agriculture/history">History</Link>
+                    </li>
                 </ul>
             </div>
         </nav>
